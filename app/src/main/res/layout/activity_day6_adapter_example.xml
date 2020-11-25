@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="clickHandler"
+            type="android.view.View.OnClickListener" />
+    </data>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        tools:context=".adapter_view_day6.Day6AdapterExampleActivity">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_day6_button1"
+            android:layout_margin="10dp"
+            android:onClick="@{clickHandler}"
+            android:text="Button 1"></Button>
+
+        <Button
+            android:id="@+id/btn_day6_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:onClick="@{clickHandler}"
+            android:text="Button 1"></Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_day6_information"
+            android:layout_margin="16dp"
+            android:text=""/>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lv_contact"/>
+    </LinearLayout>
+</layout>

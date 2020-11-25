@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edt_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Your name!"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/btn_start_other_activity"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="30dp"
+            android:text="Start Activity" />
+
+        <Button
+            android:id="@+id/btn_start_activity_result"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Start Activity 2" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_start_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Fragment Sample" />
+
+    <Button
+        android:id="@+id/btn_cucai_tool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CuCai Tool" />
+
+    <Button
+        android:id="@+id/btn_day3_intent_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3rd: Learning Intent - layout" />
+
+    <Button
+        android:id="@+id/btn_day5_broadcast_receiver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5th - Broadcast Receiver"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Day 6: Android Adapter - View"
+        android:onClick="day6AdapterViewActivity"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Day 7: Service"
+        android:onClick="day7ServiceActivityStart"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Day 8: Thread - Async Task - Handler"
+        android:onClick="day8ThreadHandlerAsyncTask"></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Day 9 : Data base"
+        android:onClick="day9DataBase"/>
+
+
+</LinearLayout>

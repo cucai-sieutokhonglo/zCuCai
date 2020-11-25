@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyCustomTextView">
+        <attr name="mFont" format = "integer"/>
+    </declare-styleable>
+</resources>

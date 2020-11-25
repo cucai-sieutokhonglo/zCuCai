@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".thread_handler_asynctask_day8.Day8ThreadHandlerAsyncTaskMainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Day 8 - Thread - Handler - AsyncTask"
+        android:textSize="18dp" />
+
+    <Button
+
+        android:id="@+id/btn_clickme_day8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="threadExample"
+        android:text="Thread - Sync Thread example" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="handlerExample"
+        android:text="Handler example" />
+
+    <TextView
+        android:id="@+id/tv_handler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Sample for Handler Example"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn_async_task_example"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="asyncTaskExample"
+        android:text="Async Task Example" />
+
+    <TextView
+        android:id="@+id/tv_process_handler_result"
+        android:layout_width="match_parent"
+        android:text="Text: "
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
