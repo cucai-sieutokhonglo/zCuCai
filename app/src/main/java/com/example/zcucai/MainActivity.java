@@ -19,6 +19,7 @@ import com.example.zcucai.fragment_activity.Day3IntentLayoutActivity;
 import com.example.zcucai.fragment_activity.FragmentExampleActivity;
 import com.example.zcucai.fragment_activity.SecondActivity;
 import com.example.zcucai.service_day7.Day7ServiceMainActivity;
+import com.example.zcucai.testSettingsScreen.SettingsActivity;
 import com.example.zcucai.thread_handler_asynctask_day8.Day8ThreadHandlerAsyncTaskMainActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -130,5 +131,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void day9DataBase(View view) {
         startActivity(new Intent(MainActivity.this, Day9MainActivityDataBase.class));
+    }
+
+    public void settingScreen(View view) {
+        startActivity(new Intent(MainActivity.this, SettingsActivity.class));
+
     }
 }
